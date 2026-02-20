@@ -10255,3 +10255,126 @@ html {
     display: inline-block;
     margin-top: 45px;
 }
+.ym-women-section {
+    padding: 70px 20px;
+    background: #f7f3ee;
+    font-family: 'Playfair Display', serif;
+}
+
+.ym-section-header {
+    text-align: center;
+    max-width: 700px;
+    margin: 0 auto 50px;
+}
+
+.ym-section-header h2 {
+    font-size: 36px;
+    color: #1f2f46;
+    margin-bottom: 15px;
+}
+
+.ym-section-header p {
+    font-size: 18px;
+    color: #555;
+}
+
+.ym-cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
+}
+
+.ym-card {
+    background: white;
+    border-radius: 22px;
+    overflow: hidden;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.08);
+    transition: .3s;
+}
+
+.ym-card:hover {
+    transform: translateY(-6px);
+}
+
+.ym-img {
+    height: 230px;
+    background-size: cover;
+    background-position: center;
+}
+
+.ym-content {
+    padding: 25px;
+}
+
+.ym-content h3 {
+    font-size: 22px;
+    color: #1f2f46;
+    margin-bottom: 10px;
+}
+
+.ym-price {
+    font-size: 22px;
+    font-weight: bold;
+    color: #b8965b;
+    margin-bottom: 15px;
+}
+
+.ym-exclusive {
+    color: #c9a96e;
+    font-style: italic;
+}
+
+.ym-content ul {
+    padding-left: 18px;
+    margin-bottom: 20px;
+}
+
+.ym-content li {
+    margin-bottom: 8px;
+    color: #444;
+}
+
+.ym-prices {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+    font-weight: bold;
+    color: #1f2f46;
+}
+
+.ym-btn {
+    display: block;
+    text-align: center;
+    padding: 12px;
+    border-radius: 12px;
+    background: #1f2f46;
+    color: white;
+    text-decoration: none;
+    transition: .3s;
+}
+
+.ym-btn:hover {
+    background: #b8965b;
+}
+
+.ym-btn-outline {
+    background: transparent;
+    border: 2px solid #1f2f46;
+    color: #1f2f46;
+}
+
+.ym-btn-outline:hover {
+    background: #1f2f46;
+    color: white;
+}
+
+.ym-btns {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.ym-exclusive {
+    font-size: 14px;
+    font-style: italic;
+    margin-top: -10px;
+}
