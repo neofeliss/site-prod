@@ -10378,3 +10378,143 @@ html {
     font-style: italic;
     margin-top: -10px;
 }
+.btn-center {
+    display: flex;
+    justify-content: center;
+    /* по горизонтали */
+    align-items: center;
+    /* по вертикали (если нужен блок с высотой) */
+    margin-top: 30px;
+}
+
+.spa-btn {
+    background: linear-gradient(135deg, #d4af37, #f5e6c8);
+    /* золото */
+    color: #0d1b2a;
+    /* тёмно-синий текст */
+    border: none;
+    padding: 14px 32px;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.spa-btn:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+    background: linear-gradient(135deg, #c9a227, #f2d9a6);
+}
+/* ===== SPA SECTION ===== */
+/* ===== SECTION ===== */
+.spa-section {
+    padding: 60px 20px;
+    background: #f5f1ea;
+    font-family: Arial, sans-serif;
+}
+
+/* ===== TITLE ===== */
+.spa-title {
+    text-align: center;
+    font-size: 30px;
+    color: #0d1b2a;
+    margin-bottom: 10px;
+}
+
+.spa-subtitle {
+    text-align: center;
+    color: #555;
+    margin-bottom: 40px;
+}
+
+/* ===== GRID ===== */
+.spa-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    max-width: 1100px;
+    margin: auto;
+}
+
+/* ===== CARD ===== */
+.spa-card {
+    background: #fff;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+    transition: 0.3s;
+}
+
+.spa-card:hover {
+    transform: translateY(-6px);
+}
+
+/* ===== IMAGE ===== */
+.spa-card img {
+    width: 100%;
+    height: 230px;
+    object-fit: cover;
+}
+
+/* ===== CONTENT ===== */
+.spa-content {
+    padding: 20px;
+}
+
+.spa-content h3 {
+    margin-bottom: 10px;
+    color: #0d1b2a;
+}
+
+.spa-content p {
+    color: #444;
+}
+
+.spa-content ul {
+    padding-left: 18px;
+    margin-top: 10px;
+}
+
+.spa-content li {
+    margin-bottom: 5px;
+}
+
+/* ===== PRICE ===== */
+.spa-price {
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+/* ===== BUTTON ===== */
+.spa-btn {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 18px;
+    background: #0d1b2a;
+    color: white;
+    text-decoration: none;
+    border-radius: 10px;
+}
+
+.spa-btn:hover {
+    background: #1b263b;
+}
+
+/* ===== RESPONSIVE ===== */
+@media (max-width: 1024px) {
+    .spa-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 600px) {
+    .spa-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .spa-title {
+        font-size: 22px;
+    }
+}
